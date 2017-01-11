@@ -29,4 +29,4 @@ The protocol offers guidance on the basic structure for:
 * Structured error reporting
 
 
-### [Crud Protocol](https://github.com/Travix-International/crud-protocol/CrudProtocol.md)
+### [Crud Protocol](https://github.com/Travix-International/crud-protocol/blob/master/CrudProtocol.md)
