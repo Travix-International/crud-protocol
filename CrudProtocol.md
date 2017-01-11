@@ -45,20 +45,20 @@ These models are used repeatedly in the various operations.
 #### Error
 
 |Field|Type|Description|
-|-|-|-|
-|message|string|Textual description of the error
+|-----|----|-----------|
+|message|string|Textual description of the error|
 
 #### Dataset
 
 |Field|Type|Description|
-|-|-|-|
+|-----|----|-----------|
 |items|array|Array of the type of entity being queried|
 |pagingInfo|PagingInfo|Information about the page being viewed|
 
 #### PagingInfo
 
 |Field|Type|Description|
-|-|-|-|
+|-----|----|-----------|
 |supportsPaging|bool|Indication if paging is supported by this list command|
 |pageSize|int|Amount of items per page|
 |pageNumber|int|Page to request. 1-based|
@@ -78,8 +78,8 @@ These models are used repeatedly in the various operations.
 
 #### Response
 
-|HTTP Status|Type in body|Meaning|
-|-:|-|-|
+| HTTP Status |Type in body | Meaning |
+|------------:|-------------|---------|
 |200|Dataset|All is ok, here's the requested data|
 |400|Error|Request is understood, but invalid|
 |500|Error|Error when processing the request
@@ -97,7 +97,7 @@ These models are used repeatedly in the various operations.
 * URL arguments
 
 |Field|Type|Description|
-|-|-|-|
+|-----|----|-----------|
 |pageSize|int|Amount of items per page|
 |pageNumber|int|Page to request. 1-based|
 |sortColumn|string|Column to sort by|
@@ -111,8 +111,8 @@ These models are used repeatedly in the various operations.
 
 #### Response
 
-|HTTP Status|Type in body|Meaning|
-|-:|-|-|
+| HTTP Status |Type in body | Meaning |
+|------------:|-------------|---------|
 |200|Dataset|Ok, entity found|
 |400|Error|Request is understood, but invalid|
 |404|_(none)_|Entity does not exist (anymore)|
